@@ -14,7 +14,7 @@ $("#select-page").css("background-color","rgba(0,0,0,0.5)");
 $(".ext_url").css("color",colour_bright);
 var boxes = document.getElementsByClassName("contentbox");
 
-//page colour 
+//page colour
 $("#sub_title").css("color",colour_bright);
 
 //colour of content box background an
@@ -122,7 +122,7 @@ $("#main-content").css("opacity","0");
 setTimeout(goFolio,500);
 });
 function goFolio(){
-document.location =  "//matthcw.com/portfolio.html"
+document.location =  "portfolio.html"
 }
 $("li").eq(1).click(function(){
 $("#main-content").css("opacity","0");
@@ -133,14 +133,14 @@ $("#main-content").css("opacity","0");
 setTimeout(goBlog,500);
 });
 function goBlog(){
-document.location =  "//matthcw.com/blog.html"
+document.location =  "myblog.html"
 }
 $("li").eq(2).click(function(){
 $("#main-content").css("opacity","0");
 setTimeout(goIndex,500);
 });
 function goIndex(){
-document.location =  "//matthcw.com/index.html"
+document.location =  "index.html"
 }
 $("li").eq(3).click(function(){
 $("#main-content").css("opacity","0");
@@ -151,7 +151,7 @@ $("#main-content").css("opacity","0");
 setTimeout(goAbout,500);
 });
 function goAbout(){
-document.location =  "//matthcw.com/about.html"
+document.location =  "about.html"
 }
 $("li").eq(4).click(function(){
 $("#main-content").css("opacity","0");
@@ -162,7 +162,7 @@ $("#main-content").css("opacity","0");
 setTimeout(goContact,500);
 });
 function goContact(){
-document.location =  "//matthcw.com/contact.html"
+document.location =  "contact.html"
 }
 
 /*}*/
